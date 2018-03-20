@@ -11,9 +11,8 @@ public class Karel {
 		this.jmeno = jmeno;
 		this.heslo = heslo;
 	}
+	
 	public String getxored() {
-		
-		
 		return null;
 	}
 	

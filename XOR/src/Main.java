@@ -5,6 +5,8 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Main {
 
@@ -55,6 +57,13 @@ public class Main {
 		textField.setColumns(10);
 		
 		JButton btnPotvrdit = new JButton("Potvrdit");
+		btnPotvrdit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+				
+			}
+		});
 		btnPotvrdit.setBounds(10, 138, 89, 23);
 		frame.getContentPane().add(btnPotvrdit);
 		

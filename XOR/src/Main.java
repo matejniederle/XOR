@@ -7,7 +7,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 
 public class Main {
-
+	
 	private JFrame frame;
 	private JTextField textField;
 	private JTextField textField_1;
